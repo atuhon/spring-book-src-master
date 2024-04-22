@@ -15,7 +15,7 @@ class TrainingServiceImplTest {
         TrainingService trainingService =new TrainingServiceImpl(trainingRepository);
 
         List<Training> trainings = trainingService.findAll();
-        // 結果の確認
+        // 結果確認
         Assertions.assertThat(trainings.size()).isEqualTo(10);
     }
 }
