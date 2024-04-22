@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import com.example.training.entity.Training;
 
 class TrainingServiceImplTest {
+    //
     @Test
     public void test_findAll() {
         TrainingRepository trainingRepository =new MockTrainingRepository();
